@@ -7,7 +7,6 @@
     <meta content="" name="keywords" />
     <meta content="" name="description" />
 
-    <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,7 +14,6 @@
       rel="stylesheet"
     />
 
-    <!-- Icon Font Stylesheet -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -25,20 +23,26 @@
       rel="stylesheet"
     />
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet" />
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="../lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link
+      href="../lib/owlcarousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
   </head>
 
   <body>
-    <!-- Spinner Start -->
     <div
       id="spinner"
       class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
@@ -51,9 +55,7 @@
         <span class="sr-only">Loading...</span>
       </div>
     </div>
-    <!-- Spinner End -->
 
-    <!-- Topbar Start -->
     <div class="container-fluid topbar bg-light px-5 d-none d-lg-block">
       <div class="row gx-0 align-items-center">
         <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
@@ -73,12 +75,12 @@
         </div>
         <div class="col-lg-4 text-center text-lg-end">
           <div class="d-inline-flex align-items-center" style="height: 45px">
-            <a href="#"
-              ><small class="me-3 text-dark"
-                ><i class="fa fa-user text-primary me-2"></i>Register</small
+            <a href="https://accounts.swiftopay.com/">
+              <small class="me-3 text-dark">
+                <i class="fa fa-user text-primary me-2"></i>Register</small
               ></a
             >
-            <a href="#"
+            <a href="https://accounts.swiftopay.com/"
               ><small class="me-3 text-dark"
                 ><i class="fa fa-sign-in-alt text-primary me-2"></i>Login</small
               ></a
@@ -115,17 +117,14 @@
         </div>
       </div>
     </div>
-    <!-- Topbar End -->
 
-    <!-- Navbar & Hero Start -->
     <div class="container-fluid position-relative p-0">
       <nav
         class="navbar navbar-expand-lg navbar-light px-3 px-lg-5 py-3 py-lg-0"
         style="background-color: #f8f8f8"
       >
         <a href="/" class="navbar-brand p-0">
-          <!-- <h1 class="text-primary"><i class="fas fa-search-dollar me-3"></i>Stocker</h1> -->
-          <img src="img/swiftopay.png" alt="Logo" />
+          <img src="../img/swiftopay.png" alt="Logo" />
         </a>
         <button
           class="navbar-toggler"
@@ -138,59 +137,44 @@
 
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto py-0">
-            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="../index.html" class="nav-item nav-link">Home</a>
             <div class="nav-item dropdown">
               <a href="#" class="nav-link" data-bs-toggle="dropdown">
                 <span class="dropdown-toggle text-black-50">Company</span>
               </a>
               <div class="dropdown-menu m-0">
-                <a href="about.html" class="dropdown-item">About Us</a>
-                <!-- Page to be create -->
-                <a href="MissionVision.html" class="dropdown-item"
+                <a href="../about.html" class="dropdown-item">About Us</a>
+                <a href="../MissionVision.html" class="dropdown-item"
                   >Mission & Vision</a
-                >
-                <a href="contact.html" class="dropdown-item">Contact</a>
+                ><a href="../contact.html" class="dropdown-item">Contact</a>
               </div>
             </div>
-            <!-- SERVICES DROPDOWN -->
             <div class="nav-item dropdown">
               <a href="#" class="nav-link" data-bs-toggle="dropdown">
                 <span class="dropdown-toggle text-black-50">Service</span>
               </a>
               <div class="dropdown-menu m-0">
-                <!-- Page to be create -->
-                <a
-                  href="Services/PaymentOrchestration.html"
-                  class="dropdown-item"
+                <a href="PaymentOrchestration.html" class="dropdown-item"
                   >Payment Orchestration</a
                 >
-                <!-- Page to be created -->
-                <a href="Services/WhiteLevelSoultion.html" class="dropdown-item"
+                <a href="WhiteLevelSoultion.html" class="dropdown-item"
                   >White Level Solution</a
                 >
-                <a href="Services/UPISolution.html" class="dropdown-item"
-                  >UPI Solution</a
-                >
-                <a href="Services/OnlineSolution.html" class="dropdown-item"
-                  >Online Solution</a
-                >
-                <a href="Services/PaymentGateway.html" class="dropdown-item"
-                  >Payment Gateway</a
-                >
+                <a href="UPISolution.html" class="dropdown-item">UPI Solution</a>
+                <a href="OnlineSolution.html" class="dropdown-item">Online Solution</a>
+                <a href="PaymentGateway.html" class="dropdown-item">Payment Gateway</a>
               </div>
             </div>
-            <!-- PARTNERSHIP DROPDOWN -->
             <div class="nav-item dropdown">
               <a href="#" class="nav-link" data-bs-toggle="dropdown">
                 <span class="dropdown-toggle text-black-50">Partnership</span>
               </a>
               <div class="dropdown-menu m-0">
-                <!-- Page to be create -->
                 <a href="#" class="dropdown-item">Referral Partnership</a>
-                <!-- Page to be created -->
                 <a href="#" class="dropdown-item">PSP Partnership</a>
               </div>
             </div>
+
             <a
               href="https://accounts.swiftopay.com/"
               class="nav-item nav-link d-sm-block d-lg-none"
@@ -207,195 +191,89 @@
           >
         </div>
       </nav>
-
-      <!-- Header Start -->
       <div class="container-fluid bg-breadcrumb">
         <div class="container text-center py-5" style="max-width: 900px">
           <h4
             class="text-white display-4 mb-4 wow fadeInDown"
             data-wow-delay="0.1s"
           >
-            Contact Us
+            White Level Solution
           </h4>
           <ol
             class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown"
             data-wow-delay="0.3s"
           >
-            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Pages</a></li>
-            <li class="breadcrumb-item active text-primary">Contact</li>
+            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+            <li class="breadcrumb-item">
+              <a href="">Services</a>
+            </li>
+            <li class="breadcrumb-item active text-primary">
+              White level soultion
+            </li>
+            <li></li>
           </ol>
         </div>
       </div>
-      <!-- Header End -->
     </div>
-    <!-- Navbar & Hero End -->
 
-    <!-- Contact Start -->
-    <div class="container-fluid contact py-5">
-      <div class="container py-5">
-        <div class="row g-5">
-          <div class="col-xl-6">
-            <div class="wow fadeInUp" data-wow-delay="0.2s">
-              <div class="bg-light rounded p-5 mb-5">
-                <h4 class="text-primary mb-4">Get in Touch</h4>
-                <div class="row g-4">
-                  <div class="col-md-6">
-                    <div class="contact-add-item">
-                      <div class="contact-icon text-primary mb-4">
-                        <i class="fas fa-map-marker-alt fa-2x"></i>
-                      </div>
-                      <div>
-                        <h4>Address</h4>
-                        <p class="mb-0">123 Street New York.USA</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="contact-add-item">
-                      <div class="contact-icon text-primary mb-4">
-                        <i class="fas fa-envelope fa-2x"></i>
-                      </div>
-                      <div>
-                        <h4>Mail Us</h4>
-                        <p class="mb-0">info@example.com</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="contact-add-item">
-                      <div class="contact-icon text-primary mb-4">
-                        <i class="fa fa-phone-alt fa-2x"></i>
-                      </div>
-                      <div>
-                        <h4>Telephone</h4>
-                        <p class="mb-0">(+012) 3456 7890</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="contact-add-item">
-                      <div class="contact-icon text-primary mb-4">
-                        <i class="fab fa-firefox-browser fa-2x"></i>
-                      </div>
-                      <div>
-                        <h4>Yoursite@ex.com</h4>
-                        <p class="mb-0">(+012) 3456 7890</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="bg-light p-5 rounded h-100 wow fadeInUp"
-                data-wow-delay="0.2s"
-              >
-                <h4 class="text-primary">Send Your Message</h4>
-                <p class="mb-4">
-                  The contact form is currently inactive. Get a functional and
-                  working contact form with Ajax & PHP in a few minutes. Just
-                  copy and paste the files, add a little code and you're done.
-                  <a
-                    class="text-primary fw-bold"
-                    href="https://htmlcodex.com/contact-form"
-                    >Download Now</a
-                  >.
-                </p>
-                <form>
-                  <div class="row g-4">
-                    <div class="col-lg-12 col-xl-6">
-                      <div class="form-floating">
-                        <input
-                          type="text"
-                          class="form-control border-0"
-                          id="name"
-                          placeholder="Your Name"
-                        />
-                        <label for="name">Your Name</label>
-                      </div>
-                    </div>
-                    <div class="col-lg-12 col-xl-6">
-                      <div class="form-floating">
-                        <input
-                          type="email"
-                          class="form-control border-0"
-                          id="email"
-                          placeholder="Your Email"
-                        />
-                        <label for="email">Your Email</label>
-                      </div>
-                    </div>
-                    <div class="col-lg-12 col-xl-6">
-                      <div class="form-floating">
-                        <input
-                          type="phone"
-                          class="form-control border-0"
-                          id="phone"
-                          placeholder="Phone"
-                        />
-                        <label for="phone">Your Phone</label>
-                      </div>
-                    </div>
-                    <div class="col-lg-12 col-xl-6">
-                      <div class="form-floating">
-                        <input
-                          type="text"
-                          class="form-control border-0"
-                          id="project"
-                          placeholder="Project"
-                        />
-                        <label for="project">Your Project</label>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <div class="form-floating">
-                        <input
-                          type="text"
-                          class="form-control border-0"
-                          id="subject"
-                          placeholder="Subject"
-                        />
-                        <label for="subject">Subject</label>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <div class="form-floating">
-                        <textarea
-                          class="form-control border-0"
-                          placeholder="Leave a message here"
-                          id="message"
-                          style="height: 160px"
-                        ></textarea>
-                        <label for="message">Message</label>
-                      </div>
-                    </div>
-                    <div class="col-12">
-                      <button class="btn btn-primary w-100 py-3">
-                        Send Message
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
+    <div class="container-fluid about py-5">
+      <section class="features">
+        <h2>Key Features Of Our <span>Payment Orchestration Platform</span></h2>
+        <div class="feature-cards">
+          <div class="card">
+            <div class="icon">
+              <img
+                src="https://payomatix.com/wp-content/uploads/2024/07/multiple.svg"
+                alt="Check Icon"
+              />
             </div>
+            <h3>Multi-Payment Gateway Integration</h3>
+            <p>
+              Payomatix integrates with multiple payment gateways, offering a
+              single, unified interface for managing all your payment processing
+              needs. Our platform supports a diverse range of payment methods,
+              including credit and debit cards, digital wallets, net banking,
+              and UPI, providing your customers with unparalleled flexibility
+              and convenience.
+            </p>
           </div>
-          <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-            <div class="rounded h-100">
-              <iframe
-                class="rounded h-100 w-100"
-                style="height: 400px"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1694259649153!5m2!1sen!2sbd"
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
+          <div class="card">
+            <div class="icon">
+              <img
+                src="https://payomatix.com/wp-content/uploads/2024/07/transaction.svg"
+                alt="Routing Icon"
+              />
             </div>
+            <h3>Intelligent Transaction Routing</h3>
+            <p>
+              Our intelligent routing system dynamically selects the most
+              efficient and cost-effective payment path for each transaction. By
+              analyzing various factors such as gateway performance, transaction
+              success rates, and cost implications, Payomatix ensures optimal
+              routing, reducing transaction costs and enhancing success rates.
+            </p>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <img
+                src="https://payomatix.com/wp-content/uploads/2024/07/scalability.svg"
+                alt="Scalability Icon"
+              />
+            </div>
+            <h3>Seamless Scalability</h3>
+            <p>
+              Whether you are a startup experiencing rapid growth or an
+              established enterprise, our platform scales effortlessly with your
+              business. Payomatix's robust architecture supports high
+              transaction volumes and ensures consistent performance, allowing
+              you to focus on your core business activities without worrying
+              about payment processing limitations.
+            </p>
           </div>
         </div>
-      </div>
+      </section>
     </div>
-    <!-- Contact End -->
 
-    <!-- Footer Start -->
     <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
       <div
         class="container py-5 border-start-0 border-end-0"
@@ -404,11 +282,11 @@
         <div class="row g-5">
           <div class="col-md-6 col-lg-6 col-xl-4">
             <div class="footer-item">
-              <a href="index.html" class="p-0">
+              <a href="../index.html" class="p-0">
                 <h4 class="text-white"></h4>
                 <img
                   class="swiftopay_logo_footer"
-                  src="img/swiftopay.png"
+                  src="../img/swiftopay.png"
                   alt="Logo"
                 />
               </a>
@@ -418,22 +296,6 @@
                 into a unified interface for seamless communication and
                 management. lorem50
               </p>
-              <!-- <div class="d-flex">
-                              <a href="#" class="bg-primary d-flex rounded align-items-center py-2 px-3 me-2">
-                                  <i class="fas fa-apple-alt text-white"></i>
-                                  <div class="ms-3">
-                                      <small class="text-white">Download on the</small>
-                                      <h6 class="text-white">App Store</h6>
-                                  </div>
-                              </a>
-                              <a href="#" class="bg-dark d-flex rounded align-items-center py-2 px-3 ms-2">
-                                  <i class="fas fa-play text-primary"></i>
-                                  <div class="ms-3">
-                                      <small class="text-white">Get it on</small>
-                                      <h6 class="text-white">Google Play</h6>
-                                  </div>
-                              </a>
-                          </div> -->
             </div>
           </div>
           <div class="col-md-6 col-lg-6 col-xl-2">
@@ -510,9 +372,7 @@
         </div>
       </div>
     </div>
-    <!-- Footer End -->
 
-    <!-- Copyright Start -->
     <div class="container-fluid copyright py-4">
       <div class="container">
         <div class="row g-4 align-items-center">
@@ -538,24 +398,74 @@
         </div>
       </div>
     </div>
-    <!-- Copyright End -->
 
-    <!-- Back to Top -->
     <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"
       ><i class="fa fa-arrow-up"></i
     ></a>
 
-    <!-- JavaScript Libraries -->
+    <style>
+      .features {
+        padding: 40px;
+        text-align: center;
+        background-color: #fff;
+      }
+
+      .features h2 {
+        font-size: 28px;
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      .features h2 span {
+        color: #1e90ff; /* Blue color */
+      }
+
+      .feature-cards {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+      }
+
+      .card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        max-width: 300px;
+        text-align: left;
+      }
+
+      .card .icon img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
+      }
+
+      .card h3 {
+        font-size: 18px;
+        color: #1e90ff; /* Blue color */
+        margin-bottom: 10px;
+      }
+
+      .card p {
+        font-size: 14px;
+        color: #555;
+        line-height: 1.6;
+      }
+    </style>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/counterup/counterup.min.js"></script>
+    <script src="../lib/lightbox/js/lightbox.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="../js/main.js"></script>
   </body>
 </html>
